@@ -1,0 +1,32 @@
+body{
+  color: #333;
+  background-color: lightgreen;
+}
+
+h1{
+  color: #fff;
+  
+}
+
+p{
+  color:#ff0000;
+  font-size: 30px;
+  color:aqua;
+}
+
+p em{
+  color:red;
+}
+.special .not{
+  color: purple;
+}
+
+.special{
+  color: green;
+}
+#superspecial{
+  font-size:50px;
+}
+h1{     
+  font-size:22px;  
+}
