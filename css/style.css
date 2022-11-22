@@ -22,7 +22,7 @@ h1{
 p{
   color:#ff0000;
   font-size: 30px;
-  color:aqua;
+  color:#333;
 }
 
 p em{
@@ -42,11 +42,29 @@ h1{
   font-size:22px;  
 }
 
+/* LINK STYLING */ 
+a{
+  color: darkblue;
+  text-decoration: none;
+  border-bottom: 1px solid darkblue;
+}
+a:hover{
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+a:visited{
+  color: #555;
+  border-bottom: 1px solid #555;
+}
+/* NAVIGATION STYLING */
 .navlist li
 {
     display: inline; /* brings nav elements up next to each other */
     list-style-type: none; /* removes the bullet points */
     padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
 }
-
+.navlist li a:visited{
+  color: darkblue;
+  border-bottom:1px solid darkblue;
+}
 
